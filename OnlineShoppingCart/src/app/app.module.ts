@@ -15,7 +15,9 @@ import { SearchItemPipe } from './pipe/search-item.pipe';
 import {MatInputModule} from '@angular/material/input';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { NgxBootstrapSliderModule } from 'ngx-bootstrap-slider';
+import { Ng5SliderModule } from 'ng5-slider';
+import { RangeSliderModule  } from 'ngx-rangeslider-component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AngularFontAwesomeModule,
     FormsModule,
     MatInputModule,
+    NgxBootstrapSliderModule,
+    Ng5SliderModule,
+    RangeSliderModule
     // NgbModule,
     // FontAwesomeModule
   ],
